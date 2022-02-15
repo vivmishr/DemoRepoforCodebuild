@@ -146,9 +146,13 @@ workflows:
     jobs:
       - Build:
           context: aws
-      - Automated Test: 
+      - Run Backend Automation Test Cases:
+          context: aws
           requires:
             - Build
+      #- Automated Test: 
+      #    requires:
+      #      - Build
       - Development Deployment:
           requires:
             - Automated Test
