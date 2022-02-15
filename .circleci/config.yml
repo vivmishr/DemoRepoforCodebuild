@@ -155,7 +155,8 @@ workflows:
       #      - Build
       - Development Deployment:
           requires:
-            - Automated Test
+            - Run Backend Automation Test Cases
+            #- Automated Test
 
   Automated Test Cases Pipeline:
     when: << pipeline.parameters.start_AT_workflow >>
