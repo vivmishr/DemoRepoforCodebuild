@@ -1,0 +1,73 @@
+{
+	"notification": [
+		{
+			"team": "developers",
+			"notification_choice": [
+				{
+					"type": "email",
+					"recipients": [
+						"vivek.mishra@amagi.com"
+					]
+				},
+				{
+					"type": "slack",
+					"recipients": [
+						"temp-stv-dev-team"
+					]
+				}
+			],
+
+		},
+		{
+			"team": "application",
+			"notification_choice": [
+				{
+					"type": "email",
+					"recipients": [
+						"vivek.mishra@amagi.com"
+					]
+				},
+				{
+					"type": "slack",
+					"recipients": [
+						"temp-stv-application-team"
+					]
+				}
+			],
+		},
+		{
+			"team": "test",
+			"notification_choice": [
+				{
+					"type": "email",
+					"recipients": [
+						"vivek.mishra@amagi.com"
+					]
+				},
+				{
+					"type": "slack",
+					"recipients": [
+						"temp-stv-qa-team"
+					]
+				}
+			],
+		},
+		{
+			"team": "product",
+			"notification_choice": [
+				{
+					"type": "email",
+					"recipients": [
+						"vivek.mishra@amagi.com"
+					]
+				},
+				{
+					"type": "slack",
+					"recipients": [
+						"temp-stv-product-team"
+					]
+				}
+			],
+		}
+	]
+}
